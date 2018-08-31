@@ -16,11 +16,13 @@ import { HomeComponent } from './home/home.component';
 import { ToastrModule, ToastrService } from 'ngx-toastr';
 import { Toastr } from './toastr/toastr';
 import {KSSwiperModule} from 'angular2-swiper';
+import { DenguComponent } from './dengu/dengu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    DenguComponent,
   ],
   exports:[],
   imports: [
