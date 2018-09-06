@@ -17,12 +17,14 @@ import { ToastrModule, ToastrService } from 'ngx-toastr';
 import { Toastr } from './toastr/toastr';
 import {KSSwiperModule} from 'angular2-swiper';
 import { DenguComponent } from './dengu/dengu.component';
+import { AddressComponent } from './address/address.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     DenguComponent,
+    AddressComponent,
   ],
   exports:[],
   imports: [

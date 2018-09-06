@@ -1,10 +1,5 @@
-.product-theme-green {
-	background-image: linear-gradient(240deg, #54af09, #7db10b);
-	-webkit-box-shadow: 0 0 16px 0 #c3eba6;
-	box-shadow: 0 0 16px 0 #c3eba6;
-	fill: #4ea414;
-}
-.product-list-container {
+
+.d-page-container {
     height: 100%;
     width: 100%;
     float: left;
@@ -30,7 +25,7 @@
         -webkit-box-shadow: 0 1px 36px 2px #e6e6ec;
         box-shadow: 0 1px 36px 2px #e6e6ec;
     }
-    .product-info {
+    .page-info {
         width: 100%;
         float: left;
         margin-left: 0;
@@ -65,7 +60,7 @@
             margin-left: 0;
             margin-right: 0;
             padding: 0 40px;
-            .policy-details-container {
+            .details-container {
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: flex;
@@ -222,19 +217,8 @@
     .recommendation-container {
         width: 100%;
         float: left;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 20px 0;
         padding: 0px 25px;
-        position: absolute;
-        bottom: 0;
-        .bottom-color {
-            width: 100%;
-            float: left;
-            margin-left: 0;
-            margin-right: 0;
-            padding: 6px 0;
-            opacity: 0.5;
-        }
     }
 }
 .button-container {
@@ -254,17 +238,16 @@
 	padding: 25px 0 15px 0;
 }
 @media only screen and (min-width: 768px) {
-	.product-list-container {
+	.d-page-container {
         height: auto;
         width: 70.33898305%;
-        float: left;
-        margin-right: 1.69491525%;
+        float: none;
         padding-bottom: 50px;
         width: 941px;
-        margin-bottom: 30px;
         -webkit-box-shadow: 0 1px 36px 2px #f6f6f7;
         box-shadow: 0 1px 36px 2px #f6f6f7;
-        .product-info {
+        margin: 0 auto 30px;
+        .page-info {
             padding: 45px 40px 33px 40px;
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
@@ -286,7 +269,7 @@
                 width: 37.5%;
                 float: left;
                 padding: 0;
-                .policy-details-container {
+                .details-container {
                     -webkit-box-pack: center;
                     -ms-flex-pack: center;
                     justify-content: center;
@@ -390,8 +373,8 @@
     }
 }
 @media only screen and (max-width: 359px) {
-	.product-list-container {
-        .product-info {
+	.d-page-container {
+        .page-info {
             padding: 16px 0 17px 0;
             .product-desc {
                 .main-heading {
@@ -402,7 +385,7 @@
                 }
             }
             .sub-container {
-                .policy-details-container {
+                .details-container {
                     .policy-details {
                         .title {
                             font-size: 17px;
